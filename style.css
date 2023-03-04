@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f1fbff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.logo {
+    height: 54px;
+    width: 94px;
+    margin-left: 10px;
+}
+
+.logo img {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*nav {
+       background: #ffffff;
+      
+       width: 100%;
+    } */
+.navbar-nav {
+    float: right;
+    justify-content: right;
+    margin-left: 700px;
+    align-items: right;
+    text-align: right;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: flex;
+
+    margin: 0 5px;
+}
+
+.navbar-nav a {
+    font-size: 21px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    color: #000000 !important;
+    text-decoration: none;
+    padding: 7px 13px;
+}
+
+a .active,
+a:hover {
+    transition: .5s;
+}
+
+.material-symbols-outlined {
+    width: 34px;
+}
+
+.top-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.welcome-text {
+    width: 43%;
+}
+
+.welcome-text h1 {
+    text-align: left;
+    font-size: 50px;
+    padding-top: 57px;
+    padding: 160px;
+    color: #fff;
+    margin-left: -3px;
+    font-weight: 700;
+}
+
+.welcome-text p {
+    margin-top: -170px;
+    margin-left: 157px;
+    font-size: 17px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 54px;
+    grid-gap: -12px;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #ffffff;
+    width: 280px;
+    margin-left: 51px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.card-title {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.mid-mid-container h1 {
+    font-size: 50px;
+    margin-top: 57px;
+    margin-left: 101px;
+    font-weight: 700;
+
+}
+
+.mid-mid-container p {
+    margin-top: -7px;
+    margin-left: 106px;
+    font-size: 21px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.learn-more {
+    color: #fff;
+    background-color: #000000;
+    border-color: #ffffff;
+    margin-top: 5px;
+    width: 132px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.brands-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/download.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+}
+
+.mid-brand h1 {
+    font-size: 50px;
+    margin-top: 57px;
+    margin-left: 200px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 52px;
+}
+
+.mid-brand p {
+    margin-top: -7px;
+    margin-left: 210px;
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.brands-section .different-text {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 110px;
+    word-spacing: 4px;
+    justify-content: left;
+    align-items: left;
+    margin-left: 80px;
+    color: #fff;
+}
+
+.brands-section .different-text .lesa {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+
+}
+
+.brands-section .different-text .simple {
+    margin-left: 70px;
+    font-size: 21px;
+
+}
+
+.brands-section .different-text .whitespace {
+    margin-left: 70px;
+    font-size: 21px;
+    font-family: 'Lora', serif
+}
+
+.brands-section .different-text .minimalism {
+    margin-left: 70px;
+    font-size: 21px;
+}
+
+.brands-section .different-text .barcelona {
+    margin-left: 70px;
+    font-size: 21px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.brands-section .different-text .smooth {
+    margin-left: 70px;
+    font-size: 21px;
+}
+
+.mid-stories h1 {
+    font-size: 50px;
+    margin-top: 57px;
+    margin-left: 270px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 52px;
+}
+
+.mid-stories p {
+    margin-top: -7px;
+    margin-left: 280px;
+    font-size: 21px;
+    color: #000;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.stories-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.stories-container {
+    font-size: 20px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 25px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.stories-container h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.stories-container p {
+    font-size: 14px;
+}
+
+.minimalist {
+    justify-content: center;
+    background: linear-gradient(to right, rgb(22, 74, 170), transparent),
+        linear-gradient(to left, rgb(56, 124, 201), transparent);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 27px;
+    height: 18vh;
+    font-size: 21px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.minimalist .minimalist-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fffcfc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    height: 212px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer p {
+    margin-top: 6px;
+}
+
+.image {
+    color: #000000;
+    background-color: #ffff;
+    width: 50px;
+    height: 55px;
+}
+
+.links .twitter {
+    margin-left: 17px;
+}
+
+.links .instagram {
+    margin-left: 17px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ .top-banner {
+        width: 230px;
+        bottom: 370px;
+    }
+}
+.card {
+    margin-bottom: 30px;
+}
+.img-area img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top-banner {
+        width: 500px;
+        height: 100vh;
+    }
+
+    .welcome-text h1 {
+        margin-left: -130px;
+        margin-top: -7px;
+        margin-bottom: 14px;
+    }
+
+    .welcome-text p {
+        font-size: 17px;
+        line-height: 15px;
+        width: 290px;
+        margin-left: 19px;
+
+    }
+
+    .mid-mid-container h1 {
+        font-size: 50px;
+        margin-top: 57px;
+        margin-left: 20px;
+        font-weight: 700;
+
+    }
+
+    .mid-mid-container p {
+        margin-top: -7px;
+        margin-left: 19px;
+        font-size: 20px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0 0 10px #ffffff;
+        width: 280px;
+        margin-left: -40px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .brands-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/download.jpg);
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        width: 500px;
+        height: 110vh;
+    }
+
+    .mid-brand h1 {
+        font-size: 50px;
+        margin-top: 57px;
+        margin-left: 40px;
+        font-weight: 700;
+        color: #fff;
+        padding-top: 52px;
+        width: 70px;
+    }
+
+    .mid-brand p {
+        margin-top: -7px;
+        margin-left: 44px;
+        font-size: 21px;
+        color: #fff;
+        width: 260px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .brands-section .different-text {
+        display: grid;
+        flex-direction: column;
+        margin-top: -120px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        padding: 110px;
+        word-spacing: 4px;
+        justify-content: left;
+        align-items: left;
+        margin-left: -60px;
+        color: #fff;
+        width: -900px;
+
+    }
+
+    .brands-section .different-text .lesa {
+        font-family: 'Playfair Display', serif;
+        font-size: 21px;
+        margin-top: 5px;
+        margin-left: 2px;
+
+    }
+
+    .brands-section .different-text .simple {
+        font-size: 21px;
+        margin-left: 2px;
+
+    }
+
+    .brands-section .different-text .whitespace {
+        margin-left: 2px;
+        font-size: 21px;
+        font-family: 'Lora', serif
+    }
+
+    .brands-section .different-text .minimalism {
+        margin-left: 2px;
+        font-size: 21px;
+    }
+
+    .brands-section .different-text .barcelona {
+        margin-left: 2px;
+        font-size: 21px;
+        font-family: 'Cormorant Infant', serif;
+    }
+
+    .brands-section .different-text .smooth {
+        margin-left: 2px;
+        font-size: 21px;
+    }
+
+    .mid-stories h1 {
+        font-size: 50px;
+        margin-top: 57px;
+        margin-left: 40px;
+        font-weight: 700;
+        color: #000;
+        padding-top: 52px;
+    }
+
+    .mid-stories p {
+        margin-top: -7px;
+        margin-left: 44px;
+        font-size: 21px;
+        color: #000;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .minimalist {
+
+        width: 400px;
+        justify-content: left;
+        background: linear-gradient(to right, rgb(22, 74, 170), transparent),
+            linear-gradient(to left, rgb(56, 124, 201), transparent);
+        color: #ffffff;
+        text-align: left;
+        margin-top: 28px;
+        padding-top: 12px;
+        height: 19vh;
+        font-size: 19px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    .minimalist .minimalist-btn {
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 4px;
+        height: 40px;
+        font-size: 15px;
+        outline: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 132px;
+    }
+
+    .footer {
+        background-color: #000000;
+        color: #fffcfc;
+        justify-content: left;
+        align-items: left;
+        text-align: lrft;
+        padding-top: 20px;
+        height: 212px;
+        width: 500px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .footer p {
+        margin-top: 6px;
+        margin-left: -15px;
+        width: 400px;
+    }
+
+    .image {
+        color: #000000;
+        background-color: #ffff;
+        width: 50px;
+        height: 55px;
+        margin-left: -112px;
+
+    }
+
+    .links .facebook {
+        margin-left: -112px;
+    }
+
+    .links .twitter {
+        margin-left: 17px;
+    }
+
+    .links .instagram {
+        margin-left: 17px;
+    }
+
+
+
+    .card {
+        margin-bottom: 30px;
+    }
+}
